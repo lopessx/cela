@@ -1,2 +1,2 @@
 # cela
-Sales and inventory management control
+Sales and inventory management control 
