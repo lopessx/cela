@@ -10,4 +10,5 @@
 
 <script setup>
 //
+console.log(process.env.API)
 </script>

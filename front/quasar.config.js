@@ -43,6 +43,12 @@ export default defineConfig((ctx) => {
         node: 'node20'
       },
 
+      env: {
+        API: ctx.dev
+        ? 'http://127.0.0.1:8000/api'
+        : 'https://' + process.env.local.prod.API_URL
+      },
+
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
